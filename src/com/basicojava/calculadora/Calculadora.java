@@ -16,7 +16,7 @@ public class Calculadora {
 		int soma = soma(a,b);
 		int subtracao = subtracao(a,b);
 		int multiplicacao = multiplicacao(a,b);
-		/*teste e*/
+		/*teste */
 		
 		System.out.println("O resultado soma é: "+soma);
 		System.out.println("O resultado multiplicacao é: "+multiplicacao);
