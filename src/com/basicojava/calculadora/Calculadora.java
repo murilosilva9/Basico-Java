@@ -33,7 +33,7 @@ public class Calculadora {
 		return a - b;
 	}
 
-	public static double divisao(int a, int b) {
+	public static double divisao(double a, double b) {
 		return a / b;
 	}
 
