@@ -15,6 +15,8 @@ public class TiposDeVariaveis {
 		mes = (short) cast;
 		
 		System.out.println(mes); // vai dar -1 pois deu overflow no mes que é short
+		
+		// teste de pull do git para o eclipse
 
 	}
 
