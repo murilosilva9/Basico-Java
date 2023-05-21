@@ -4,7 +4,7 @@ public class SmartTv {
 		
 	boolean ligada;
 	int volume = 10;
-	int canal = 0;
+	int canal = 1;
 	
 
 	public void ligar() {
@@ -32,6 +32,11 @@ public class SmartTv {
 	public void aumentarCanal() {
 		
 		canal++;
+	}
+	
+	public void diminuirCanal() {
+		
+		canal--;
 	}
 	
 }
