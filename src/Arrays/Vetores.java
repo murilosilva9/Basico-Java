@@ -42,6 +42,7 @@ public class Vetores {
 			System.out.println(consoante);
 			}
 		}
+		
 	}
 
 }
