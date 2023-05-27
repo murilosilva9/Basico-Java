@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class Vetores {
 
+	/**
+	 * @param args
+	 */
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
@@ -29,6 +35,13 @@ public class Vetores {
 			contador++;	
 		}
 		while( contador < consoantes.length );
+		
+		for(String consoante : consoantes) {
+			
+			if(consoante != null) {
+			System.out.println(consoante);
+			}
+		}
 	}
 
 }
