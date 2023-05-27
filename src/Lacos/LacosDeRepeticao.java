@@ -1,5 +1,7 @@
 package Lacos;
 
+import java.util.Scanner;
+
 public class LacosDeRepeticao {
 
 	public static void main(String[] args) {
@@ -9,6 +11,30 @@ public class LacosDeRepeticao {
 		met.metodo1();
 		System.out.println("proximo metodo");
 		met.metodo2();
+		
+		int var1 = 0, var2 = 0;
+		
+		for (int i = 0;i <2;i++) {
+		var1++;
+		++var2;
+		
+		System.out.println("var2 "+var2+"var1 "+var1);
+		}
+		
+		String nome = "sem nome";
+		int idade;
+		Scanner scan = new Scanner(System.in);
+		
+		while(!nome.equals("0")) {
+			
+			System.out.println("nome: ");
+			nome = scan.next();
+			System.out.println("idade: ");
+			idade = scan.nextInt();
+			
+			
+		}
+		
 				
 	}
 
